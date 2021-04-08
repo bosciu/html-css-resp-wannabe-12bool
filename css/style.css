@@ -77,3 +77,36 @@ h3 {
         padding: 5%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 17px;
+    }
+    h2 {
+        padding-top: 3%;
+    }
+    p {
+        margin-bottom: 5%;
+    }
+    body>section {
+        margin: 0 0;
+    }
+    section img {
+        height: 120px;
+    }
+    #where-you-want {
+        background-color: rgb(242, 242, 205);
+    }
+    #why-cademi {
+        background-color: rgb(242, 242, 205);
+    }
+    .blue-rounded {
+        padding: 5%;
+    }
+    .blue-rounded>img {
+        height: 80px;
+    }
+    hr {
+        border-color: rgb(128, 128, 128);
+    }
+}
