@@ -1,3 +1,52 @@
-body {
+/* Debug */
+
+#where-you-want {
     background-color: red;
+}
+
+#how-it-work {
+    height: 400px;
+    background-color: blue;
+}
+
+#why-cademi {
+    height: 400px;
+    background-color: green;
+}
+
+
+/* /Debug */
+
+
+/* Common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+body>section {
+    margin-top: 100px;
+}
+
+section img {
+    height: 200px;
+}
+
+.box {
+    padding: 0 20px;
+}
+
+
+/* Text Rules */
+
+h3 {
+    margin: 20px 0;
 }
